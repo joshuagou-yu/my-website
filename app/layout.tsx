@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Cali,Cali Castle,郭晓楠,佐玩,创始人,CEO,开发者,设计师,细节控,创新',
+  keywords: 'xiaochun,小春,joshuagou,黑慕道,创始人,CEO,开发者,动画师,细节控,创新',
   manifest: '/site.webmanifest',
   robots: {
     index: true,
@@ -34,21 +34,21 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: seo.title,
-      template: '%s | Cali Castle',
+      template: '%s | 小春',
     },
     description: seo.description,
-    siteName: 'Cali Castle',
+    siteName: '小春',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://cali.so',
+    url: 'https://xiaochun.cc',
   },
-  twitter: {
-    site: '@thecalicastle',
-    creator: '@thecalicastle',
-    card: 'summary_large_image',
-    title: seo.title,
-    description: seo.description,
-  },
+  // twitter: {
+  //   site: '@fox_8217',
+  //   creator: '@fox_8217',
+  //   card: 'summary_large_image',
+  //   title: seo.title,
+  //   description: seo.description,
+  // },
   alternates: {
     canonical: url('/'),
     types: {
